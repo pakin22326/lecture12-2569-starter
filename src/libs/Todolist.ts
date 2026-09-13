@@ -8,9 +8,11 @@
  *  description: string;
  *  isDone: boolean; -> เป็น boolean true/false เท่านั้น
  */
-
 interface TaskCardProps {
   id: string;
+  title: string;
+  description: string;
+  isDone: boolean;
 }
 
 export type { TaskCardProps };
